@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import AdaptButton from './components/button/AdaptButton';
 import ExtendButton from './components/button/ExtendButton';
+import PolymorphicButton from './components/button/PolymorphicButton';
+import ReversedButton from './components/button/ReversedButton';
 
 const Title = styled.h1`
   font-size: 1.5em;
@@ -25,6 +27,8 @@ const App = () => {
       </header>
       <AdaptButton />
       <ExtendButton />
+      <PolymorphicButton/>
+      <ReversedButton/>
     </div>
   );
 }
