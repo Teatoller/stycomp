@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
 import styled from 'styled-components'
+import Buton from './components/button/Button';
 
 const Title = styled.h1`
   font-size: 1.5em;
@@ -13,28 +12,17 @@ const Wrapper = styled.section`
   background: papayawhip;
 `;
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
         <Wrapper>
           <Title>
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-        </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-        </a>
+            Styled Components
           </Title>
         </Wrapper>
       </header>
+      <Buton/>
     </div>
   );
 }
