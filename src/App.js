@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import Buton from './components/button/Button';
+import AdaptButton from './components/button/AdaptButton';
+import ExtendButton from './components/button/ExtendButton';
 
 const Title = styled.h1`
   font-size: 1.5em;
@@ -22,7 +23,8 @@ const App = () => {
           </Title>
         </Wrapper>
       </header>
-      <Buton/>
+      <AdaptButton />
+      <ExtendButton />
     </div>
   );
 }

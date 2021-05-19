@@ -12,7 +12,7 @@ const Button = styled.button`
   border-radius: 3px;
 `;
 
-export const Buton = () => {
+export const AdaptButton = () => {
     return (
         <>
         <h3>Adapting styles base on props</h3>
@@ -21,4 +21,4 @@ export const Buton = () => {
         </>
     )
 }
-export default Buton
+export default AdaptButton
